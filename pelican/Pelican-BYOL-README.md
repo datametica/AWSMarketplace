@@ -170,7 +170,7 @@ helm install \
     --set-string pelicandb.image.tag=5.7 \
     --set-string pelican.image.repo=709825985650.dkr.ecr.us-east-1.amazonaws.com/datametica/pelican-byol/pelican-web1 \
     --set-string pelican.image.tag=1.0.1 dm-pelican  charts/pelican-byol-chart/
-
+```
 Example: Deploy pelican-byol with latest images and SSL(HTTPS) enabed
 Replace the CertARN with valid string
 ```
