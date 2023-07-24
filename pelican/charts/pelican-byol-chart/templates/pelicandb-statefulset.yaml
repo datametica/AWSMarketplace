@@ -30,7 +30,7 @@ spec:
             cpu: "500m"
         imagePullPolicy: Always
         env:
-	           - name: MARIADB_ROOT_PASSWORD		
+           - name: MARIADB_ROOT_PASSWORD		
              valueFrom:		
                secretKeyRef:		
                  key: MARIADB_ROOT_PASSWD		
